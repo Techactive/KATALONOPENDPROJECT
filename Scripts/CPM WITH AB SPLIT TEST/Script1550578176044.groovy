@@ -127,15 +127,9 @@ WebUI.click(findTestObject('NEWOPENDCPM/step3prcdbrn'))
 
 WebUI.delay(5)
 
-not_run: WebUI.setText(findTestObject('NEWSPYIDS/subjctprct1'), '50')
-
 WebUI.setText(findTestObject('NEWSPYIDS/Page_Opend/input_What percentage of your'), '25')
 
 WebUI.delay(2)
-
-not_run: WebUI.setText(findTestObject('NEWSPYIDS/subjectprct2'), '50')
-
-not_run: WebUI.click(findTestObject('winning combination'))
 
 WebUI.delay(2)
 
