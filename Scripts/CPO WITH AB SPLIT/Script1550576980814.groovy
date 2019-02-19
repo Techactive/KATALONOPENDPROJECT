@@ -38,11 +38,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/NEWOPENDCPM/Page_Ope
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'CPM WITH A/B SPLIT CAMPAIGN 1')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'CPO WITH AB SPLIT CAMPAIGN ')
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges'))
+
+WebUI.click(findTestObject('NEWSPYIDS/Page_Opend/label_CPO'))
 
 WebUI.delay(2)
 
@@ -79,6 +81,10 @@ WebUI.click(findTestObject('newidsfromspy/Page_Opend/AIselectbtn'))
 
 WebUI.delay(3)
 
+WebUI.setText(findTestObject('NEWSPYIDS/Page_Opend/input_CPO price_cplprice'), '2')
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('newidsfromspy/Page_Opend/input_Select Publisher_validat'))
 
 WebUI.delay(3)
@@ -92,6 +98,10 @@ WebUI.click(findTestObject('newidsfromspy/Page_Opend/Pubselectbtn'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('NEWSPYIDS/Page_Opend/label_Normal charges'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_'), '1')
 
 WebUI.delay(5)
 
