@@ -4,6 +4,16 @@
    <name>subjctprct1</name>
    <tag></tag>
    <elementGuidId>5b31c951-5b4c-4398-90ba-bca9711be8a6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;absplit&quot;]/div[2]/div[1]/span/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
