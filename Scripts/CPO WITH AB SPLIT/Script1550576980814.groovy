@@ -137,11 +137,11 @@ WebUI.click(findTestObject('NEWOPENDCPM/step3prcdbrn'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('NEWSPYIDS/Page_Opend/input_Subject Line 1_input-fie'), '50')
+WebUI.setText(findTestObject('NEWSPYIDS/subjctprct1'), '50')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('NEWSPYIDS/Page_Opend/input_Subject Line 2_input-fie'), '50')
+WebUI.setText(findTestObject('NEWSPYIDS/subjectprct2'), '50')
 
 WebUI.delay(2)
 
