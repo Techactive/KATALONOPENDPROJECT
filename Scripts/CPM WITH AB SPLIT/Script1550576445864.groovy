@@ -38,7 +38,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/NEWOPENDCPM/Page_Ope
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'CPM WITH A/B SPLIT CAMPAIGN 1')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'CPM WITH A/B SPLIT CAMPAIGN ')
 
 WebUI.delay(2)
 

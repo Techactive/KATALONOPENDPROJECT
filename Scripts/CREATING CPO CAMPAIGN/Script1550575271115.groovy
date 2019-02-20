@@ -38,7 +38,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/NEWOPENDCPM/Page_Ope
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'TEST CPO CAMPAIGN 6')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'TEST CPO CAMPAIGN ')
 
 WebUI.delay(2)
 
@@ -109,7 +109,7 @@ WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/button_Proc
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'), 'GOOD AFTERNOON ')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'), 'GOOD Morning ')
 
 WebUI.delay(5)
 

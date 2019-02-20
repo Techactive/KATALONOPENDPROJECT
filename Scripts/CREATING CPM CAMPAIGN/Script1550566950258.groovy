@@ -99,7 +99,7 @@ WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/button_Proc
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'), 'GOOD AFTERNOON ')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'), 'GOOD MORNING ')
 
 WebUI.delay(5)
 
