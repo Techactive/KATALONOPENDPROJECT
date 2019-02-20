@@ -29,7 +29,11 @@ WebUI.click(findTestObject('newpublead/Page_Opend/a_Publishers'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('newpublead/Page_Opend/button_Add New Publisher'))
+WebUI.click(findTestObject('newpublead/Page_Opend/a_Leads'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('newpublead/Page_Opend/button_Add New Leads'))
 
 WebUI.delay(4)
 
@@ -52,17 +56,17 @@ not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/createnewad
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__validate input-field in'))
+WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__validate input-field in'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
-not_run: WebUI.click(findTestObject('Object Repository/createnewadvertiser/Page_Opend/label_automation testing'))
+WebUI.click(findTestObject('Object Repository/createnewadvertiser/Page_Opend/label_automation testing'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
-not_run: WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/button_Select'))
+WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/button_Select'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__sub_id'), '6465')
 
