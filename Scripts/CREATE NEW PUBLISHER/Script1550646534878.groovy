@@ -68,8 +68,8 @@ WebUI.setText(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__su
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/createnewadvertiser/Page_Opend/select_Please select a timezon'), 
-    'Europe/London', true)
+WebUI.selectOptionByValue(findTestObject('contactai/timezone/Page_Opend/select_Please select a timezon'), 'Europe/London', 
+    true)
 
 WebUI.delay(3)
 
@@ -81,7 +81,7 @@ WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/i
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/input__email_id'), 'siddannna@active.agency')
+WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/input__email_id'), 'siddanna@active.agency')
 
 WebUI.delay(3)
 
