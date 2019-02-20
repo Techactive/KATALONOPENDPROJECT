@@ -66,7 +66,7 @@ not_run: WebUI.delay(2)
 
 WebUI.setText(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__sub_id'), '6465')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/createnewadvertiser/Page_Opend/select_Please select a timezon'), 
     'Europe/London', true)

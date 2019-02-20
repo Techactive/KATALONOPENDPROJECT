@@ -51,22 +51,22 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/createnewadvertiser/
 
 WebUI.delay(3)
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/createnewadvertiser/Page_Opend/select_Please select a Functio'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/createnewadvertiser/Page_Opend/select_Please select a Functio'), 
     '3', true)
 
 not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__validate input-field in'))
+not_run: WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__validate input-field in'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/createnewadvertiser/Page_Opend/label_automation testing'))
+not_run: WebUI.click(findTestObject('Object Repository/createnewadvertiser/Page_Opend/label_automation testing'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/button_Select'))
+not_run: WebUI.click(findTestObject('createnewadvertiser/advnewids/Page_Opend/button_Select'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.setText(findTestObject('createnewadvertiser/advnewids/Page_Opend/input__sub_id'), '6465')
 
