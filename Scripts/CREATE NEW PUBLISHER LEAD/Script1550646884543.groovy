@@ -85,7 +85,7 @@ WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/i
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/input__email_id'), 'siddannna@active.agency')
+WebUI.setText(findTestObject('Object Repository/createnewadvertiser/Page_Opend/input__email_id'), 'siddanna@active.agency')
 
 WebUI.delay(3)
 
