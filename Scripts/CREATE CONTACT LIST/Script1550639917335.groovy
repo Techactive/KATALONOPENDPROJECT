@@ -21,24 +21,30 @@ WebUI.setText(findTestObject('Object Repository/creating contact/Page_Opend/inpu
 
 WebUI.setEncryptedText(findTestObject('Object Repository/creating contact/Page_Opend/input_Admin Login_password'), '4nvbrPglk7k=')
 
+WebUI.click(findTestObject('creating contact/Signinbtn'))
+
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/a_Contacts'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/a_Create Contact'))
 
-WebUI.delay(4)
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/creating contact/Page_Opend/select_Please Select Publisher'), 
     '2', true)
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/creating contact/Page_Opend/input__validate input-field ng'), 'TEST LIST 1')
+WebUI.setText(findTestObject('Object Repository/creating contact/Page_Opend/input__validate input-field ng'), 'TEST LIST 2')
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('newcontactids/Page_Opend/input__validate input-field in'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/label_siddu'))
 
@@ -48,7 +54,15 @@ WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/button
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/creating contact/Page_Opend/input__validate input-field ng'), '10')
+WebUI.setText(findTestObject('newcontactids/Page_Opend/cpmpayout'), '100')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('newcontactids/Page_Opend/usagelimit'), '10')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('contactai/Page_Opend/input__validate input-field in'))
 
 WebUI.delay(2)
 
@@ -60,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/label_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/creating contact/Page_Opend/button_Select'))
+WebUI.click(findTestObject('contactai/Page_Opend/aiselectbtn'))
 
 WebUI.delay(2)
 
