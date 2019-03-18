@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST SUITE 2" time="348" tests="2" failures="1" errors="0">
+   <testsuite name="TEST SUITE 2" tests="2" failures="1" errors="0" time="348" timestamp="2019-03-18 10:26:47" hostname="activemac05 - activemc05simac" id="Test Suites/TEST SUITE 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/activemac05/git/KATALONOPENDPROJECT1/Reports/TEST SUITE 2/20190318_102030"/>
+         <property name="logFiles" value="/Users/activemac05/git/KATALONOPENDPROJECT1/Reports/TEST SUITE 2/20190318_102030/execution0.log"/>
+         <property name="attachments" value="/Users/activemac05/git/KATALONOPENDPROJECT1/Reports/TEST SUITE 2/20190318_102030/1552885095711.png"/>
+         <property name="hostName" value="activemac05 - activemc05simac"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.135"/>
+         <property name="sessionId" value="488db618-f18a-0444-865f-00188313bf96"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CPM WITH AB SPLIT" classname="Test Cases/CPM WITH AB SPLIT" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CPM WITH AB SPLIT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;label> is not clickable at point (1196,291) because another element &lt;md-tab-content id=&quot;tab-content-3&quot; class=&quot;_md ng-scope md-right md-no-scroll&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-18 10:26:47 - [TEST_CASE][FAILED] - Test Cases/CPM WITH AB SPLIT: Test Cases/CPM WITH AB SPLIT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)
+
+
+2019-03-18 10:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-18 10:26:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-18 10:26:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-18 10:26:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-18 10:26:55 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:26:59 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:27:00 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:27:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:27:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:27:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:27:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:27:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:27:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:27:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:27:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:27:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:27:17 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:27:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPM WITH A/B SPLIT CAMPAIGN "): Text 'CPM WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:27:20 - [MESSAGE][PASSED] - Text 'CPM WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:27:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:27:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:27:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:27:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:27:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:27:25 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:27:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:28 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:27:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:32 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:27:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:27:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:38 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:27:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:41 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:27:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:27:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:27:44 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:27:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:27:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:27:49 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:27:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:52 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:27:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:27:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:27:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:28:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:28:00 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:28:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:28:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:28:03 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:28:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:28:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:28:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:28:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:28:15 - [TEST_STEP][FAILED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)
+
+
+2019-03-18 10:28:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+[[ATTACHMENT|/Users/activemac05/git/KATALONOPENDPROJECT1/Reports/TEST SUITE 2/20190318_102030/1552885095711.png]]
+
+2019-03-18 10:28:15 - [MESSAGE][FAILED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-18 10:26:47 - [TEST_CASE][FAILED] - Test Cases/CPM WITH AB SPLIT: Test Cases/CPM WITH AB SPLIT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPO WITH AB SPLIT" classname="Test Cases/CPO WITH AB SPLIT" status="PASSED">
+         <system-out><![CDATA[2019-03-18 10:28:16 - [TEST_CASE][PASSED] - Test Cases/CPO WITH AB SPLIT: Test Cases/CPO WITH AB SPLIT
+
+2019-03-18 10:28:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-18 10:28:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-18 10:28:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-18 10:28:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-18 10:28:22 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:28:25 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:28:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:28:26 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:28:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:28:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:28:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:28:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:28:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:28:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:28:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:28:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:28:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:28:43 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:28:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:28:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:28:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPO WITH AB SPLIT CAMPAIGN "): Text 'CPO WITH AB SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:28:46 - [MESSAGE][PASSED] - Text 'CPO WITH AB SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:28:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:28:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:28:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:28:49 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_CPO")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPO' is clicked on
+
+2019-03-18 10:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPO' is clicked on
+
+2019-03-18 10:28:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:28:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:28:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:28:52 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:28:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:28:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:28:55 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:28:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:28:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:28:58 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:28:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:29:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:05 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:29:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:08 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:29:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:29:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:29:10 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:29:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:29:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:29:16 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:29:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPO price_cplprice"), "2"): Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO price_cplprice'
+
+2019-03-18 10:29:19 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO price_cplprice'
+
+2019-03-18 10:29:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:29:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:29:21 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:29:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:29:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:28 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:29:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:29:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:29:31 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:29:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-18 10:29:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-18 10:29:32 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_"), "1"): Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_'
+
+2019-03-18 10:29:32 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_'
+
+2019-03-18 10:29:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:29:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:29:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:29:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:29:43 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-18 10:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-18 10:29:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:29:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone"), "GOOD AFTERNOON "): Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-18 10:29:46 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-18 10:29:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:29:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2"), "GOOD AFTERNOON TA"): Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-18 10:29:48 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-18 10:29:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:29:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:29:53 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_From Creatives_uploadBtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-18 10:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-18 10:29:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:29:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:29:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:04 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/Step2prcdbtn")): Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-18 10:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-18 10:30:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:10 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/step3prcdbrn")): Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-18 10:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-18 10:30:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:15 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjctprct1"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-18 10:30:15 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-18 10:30:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:30:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjectprct2"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-18 10:30:17 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-18 10:30:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:30:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:30:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("NEWOPENDCPM/Startcampbtn")): NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-18 10:30:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-18 10:30:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-18 10:30:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPL WITH AB SPLIT" classname="Test Cases/CPL WITH AB SPLIT" status="PASSED">
+         <system-out><![CDATA[2019-03-18 10:30:25 - [TEST_CASE][PASSED] - Test Cases/CPL WITH AB SPLIT: Test Cases/CPL WITH AB SPLIT
+
+2019-03-18 10:30:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-18 10:30:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-18 10:30:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-18 10:30:31 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:30:34 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-18 10:30:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:30:35 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-18 10:30:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:30:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-18 10:30:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-18 10:30:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-18 10:30:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-18 10:30:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:30:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:30:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:30:53 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-18 10:30:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:30:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPL WITH A/B SPLIT CAMPAIGN "): Text 'CPL WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:30:56 - [MESSAGE][PASSED] - Text 'CPL WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-18 10:30:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:30:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:30:58 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_CPL")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPL' is clicked on
+
+2019-03-18 10:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPL' is clicked on
+
+2019-03-18 10:30:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:31:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:31:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:31:01 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-18 10:31:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:04 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-18 10:31:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:08 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-18 10:31:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:31:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:14 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-18 10:31:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:17 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-18 10:31:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:31:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:31:20 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-18 10:31:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:31:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:31:25 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-18 10:31:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPL price_cplprice"), "2"): Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL price_cplprice'
+
+2019-03-18 10:31:28 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL price_cplprice'
+
+2019-03-18 10:31:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:31:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:31:30 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-18 10:31:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-18 10:31:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:37 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-18 10:31:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-18 10:31:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-18 10:31:40 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-18 10:31:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-18 10:31:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-18 10:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_"), "1"): Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_'
+
+2019-03-18 10:31:42 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_'
+
+2019-03-18 10:31:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:31:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-18 10:31:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:31:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:31:52 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-18 10:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-18 10:31:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:31:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:31:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone"), "GOOD AFTERNOON "): Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-18 10:31:55 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-18 10:31:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:31:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:31:57 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2"), "GOOD AFTERNOON TA"): Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-18 10:31:58 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-18 10:31:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:03 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_From Creatives_uploadBtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-18 10:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-18 10:32:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-18 10:32:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:13 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/Step2prcdbtn")): Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-18 10:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-18 10:32:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:19 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/step3prcdbrn")): Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-18 10:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-18 10:32:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjctprct1"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-18 10:32:25 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-18 10:32:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:32:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:32:27 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjectprct2"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-18 10:32:27 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-18 10:32:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-18 10:32:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-18 10:32:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("NEWOPENDCPM/Startcampbtn")): NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-18 10:32:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-18 10:32:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-18 10:32:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-18 10:32:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-18 10:32:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-18 10:26:47 - [TEST_SUITE][FAILED] - TEST SUITE 2: Test Cases/CPM WITH AB SPLIT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-18 10:26:47 - [TEST_SUITE][FAILED] - TEST SUITE 2: Test Cases/CPM WITH AB SPLIT FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label> is not clickable at point (1196,291) because another element <md-tab-content id="tab-content-3" class="_md ng-scope md-right md-no-scroll"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ActiveMc05siMac', ip: '192.168.1.135', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 613, moz:profile: /var/folders/1v/_lqsr2vj0c5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 33ebef47-b4c9-c64d-8033-89f138023ad8)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at CPM WITH AB SPLIT.run(CPM WITH AB SPLIT:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552884630577.run(TempTestSuite1552884630577.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
