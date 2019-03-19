@@ -1,0 +1,207 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE 2,Firefox 65.0,,2019-03-19 09:54:26,2019-03-19 10:00:49,6m - 22.950s,PASSED
+,,,,,,
+Test Cases/CPM WITH AB SPLIT,Firefox 65.0,,2019-03-19 09:54:27,2019-03-19 09:56:34,2m - 7.663s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-19 09:54:27,2019-03-19 09:54:35,7.677s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-19 09:54:35,2019-03-19 09:54:37,2.276s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 65.0,,2019-03-19 09:54:37,2019-03-19 09:54:39,1.854s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 65.0,,2019-03-19 09:54:39,2019-03-19 09:54:39,0.301s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 65.0,,2019-03-19 09:54:39,2019-03-19 09:54:40,0.475s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:54:40,2019-03-19 09:54:45,5.054s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 65.0,,2019-03-19 09:54:45,2019-03-19 09:54:45,0.108s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:54:45,2019-03-19 09:54:50,5.009s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 65.0,,2019-03-19 09:54:50,2019-03-19 09:54:50,0.267s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:54:50,2019-03-19 09:54:55,5.004s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise""), ""2"", true)",Firefox 65.0,,2019-03-19 09:54:55,2019-03-19 09:54:56,0.933s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:54:56,2019-03-19 09:54:59,3.006s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_""), ""CPM WITH A/B SPLIT CAMPAIGN "")",Firefox 65.0,,2019-03-19 09:54:59,2019-03-19 09:55:00,0.318s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:55:00,2019-03-19 09:55:02,2.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:55:02,2019-03-19 09:55:02,0.311s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:55:02,2019-03-19 09:55:04,2.003s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience""), ""2"", true)",Firefox 65.0,,2019-03-19 09:55:04,2019-03-19 09:55:04,0.467s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:04,2019-03-19 09:55:07,3.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Campaign Category_valida""))",Firefox 65.0,,2019-03-19 09:55:07,2019-03-19 09:55:08,0.300s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:08,2019-03-19 09:55:11,3.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_fashion""))",Firefox 65.0,,2019-03-19 09:55:11,2019-03-19 09:55:11,0.310s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:11,2019-03-19 09:55:14,3.014s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 09:55:14,2019-03-19 09:55:14,0.392s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:14,2019-03-19 09:55:17,3.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Audience Interests_valid""))",Firefox 65.0,,2019-03-19 09:55:17,2019-03-19 09:55:18,0.287s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:18,2019-03-19 09:55:21,3.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Party wear""))",Firefox 65.0,,2019-03-19 09:55:21,2019-03-19 09:55:21,0.285s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:55:21,2019-03-19 09:55:23,2.006s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Kidz Wear""))",Firefox 65.0,,2019-03-19 09:55:23,2019-03-19 09:55:23,0.276s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:55:23,2019-03-19 09:55:28,5.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/AIselectbtn""))",Firefox 65.0,,2019-03-19 09:55:28,2019-03-19 09:55:29,0.267s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:29,2019-03-19 09:55:32,3.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Select Publisher_validat""))",Firefox 65.0,,2019-03-19 09:55:32,2019-03-19 09:55:32,0.319s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:32,2019-03-19 09:55:35,3.003s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Jack""))",Firefox 65.0,,2019-03-19 09:55:35,2019-03-19 09:55:35,0.286s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:35,2019-03-19 09:55:38,3.006s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/Pubselectbtn""))",Firefox 65.0,,2019-03-19 09:55:38,2019-03-19 09:55:38,0.252s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:55:38,2019-03-19 09:55:41,3.003s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:55:41,2019-03-19 09:55:42,0.258s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:55:42,2019-03-19 09:55:47,5.004s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed""))",Firefox 65.0,,2019-03-19 09:55:47,2019-03-19 09:55:47,0.404s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:55:47,2019-03-19 09:55:52,5.008s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_AB Split""))",Firefox 65.0,,2019-03-19 09:55:52,2019-03-19 09:55:53,0.475s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:55:53,2019-03-19 09:55:55,2.004s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone""), ""GOOD AFTERNOON "")",Firefox 65.0,,2019-03-19 09:55:55,2019-03-19 09:55:55,0.253s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:55:55,2019-03-19 09:55:57,2.006s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2""), ""GOOD AFTERNOON TA"")",Firefox 65.0,,2019-03-19 09:55:57,2019-03-19 09:55:57,0.251s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:55:57,2019-03-19 09:56:02,5.005s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_From Creatives_uploadBtn""))",Firefox 65.0,,2019-03-19 09:56:02,2019-03-19 09:56:02,0.323s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:02,2019-03-19 09:56:07,5.004s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 09:56:07,2019-03-19 09:56:08,0.390s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:08,2019-03-19 09:56:13,5.005s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Step2prcdbtn""))",Firefox 65.0,,2019-03-19 09:56:13,2019-03-19 09:56:14,0.786s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:14,2019-03-19 09:56:19,5.004s,PASSED
+"click(findTestObject(""NEWOPENDCPM/step3prcdbrn""))",Firefox 65.0,,2019-03-19 09:56:19,2019-03-19 09:56:19,0.344s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:19,2019-03-19 09:56:24,5.005s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjctprct1""), ""50"")",Firefox 65.0,,2019-03-19 09:56:24,2019-03-19 09:56:24,0.122s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:56:24,2019-03-19 09:56:26,2.006s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjectprct2""), ""50"")",Firefox 65.0,,2019-03-19 09:56:26,2019-03-19 09:56:26,0.105s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:56:26,2019-03-19 09:56:28,2.002s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Startcampbtn""))",Firefox 65.0,,2019-03-19 09:56:28,2019-03-19 09:56:28,0.006s,NOT_RUN
+delay(5),Firefox 65.0,,2019-03-19 09:56:28,2019-03-19 09:56:33,5.003s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-19 09:56:33,2019-03-19 09:56:34,0.974s,PASSED
+,,,,,,
+Test Cases/CPO WITH AB SPLIT,Firefox 65.0,,2019-03-19 09:56:34,2019-03-19 09:58:41,2m - 7.172s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-19 09:56:35,2019-03-19 09:56:40,4.699s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-19 09:56:40,2019-03-19 09:56:42,2.752s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 65.0,,2019-03-19 09:56:42,2019-03-19 09:56:44,1.176s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 65.0,,2019-03-19 09:56:44,2019-03-19 09:56:44,0.135s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 65.0,,2019-03-19 09:56:44,2019-03-19 09:56:44,0.367s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:44,2019-03-19 09:56:49,5.006s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 65.0,,2019-03-19 09:56:49,2019-03-19 09:56:49,0.094s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:49,2019-03-19 09:56:54,5.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 65.0,,2019-03-19 09:56:54,2019-03-19 09:56:54,0.275s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:56:54,2019-03-19 09:56:59,5.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise""), ""2"", true)",Firefox 65.0,,2019-03-19 09:56:59,2019-03-19 09:57:00,0.678s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:00,2019-03-19 09:57:03,3.003s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_""), ""CPO WITH AB SPLIT CAMPAIGN "")",Firefox 65.0,,2019-03-19 09:57:03,2019-03-19 09:57:03,0.319s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:57:03,2019-03-19 09:57:05,2.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:57:05,2019-03-19 09:57:06,0.401s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_CPO""))",Firefox 65.0,,2019-03-19 09:57:06,2019-03-19 09:57:06,0.440s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:57:06,2019-03-19 09:57:08,2.003s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience""), ""2"", true)",Firefox 65.0,,2019-03-19 09:57:08,2019-03-19 09:57:09,0.491s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:09,2019-03-19 09:57:12,3.006s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Campaign Category_valida""))",Firefox 65.0,,2019-03-19 09:57:12,2019-03-19 09:57:12,0.260s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:12,2019-03-19 09:57:15,3.006s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_fashion""))",Firefox 65.0,,2019-03-19 09:57:15,2019-03-19 09:57:15,0.285s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:15,2019-03-19 09:57:18,3.003s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 09:57:18,2019-03-19 09:57:19,0.285s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:19,2019-03-19 09:57:22,3.004s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Audience Interests_valid""))",Firefox 65.0,,2019-03-19 09:57:22,2019-03-19 09:57:22,0.297s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:22,2019-03-19 09:57:25,3.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Party wear""))",Firefox 65.0,,2019-03-19 09:57:25,2019-03-19 09:57:25,0.283s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:57:25,2019-03-19 09:57:27,2.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Kidz Wear""))",Firefox 65.0,,2019-03-19 09:57:27,2019-03-19 09:57:27,0.269s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:57:27,2019-03-19 09:57:32,5.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/AIselectbtn""))",Firefox 65.0,,2019-03-19 09:57:32,2019-03-19 09:57:33,0.257s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:33,2019-03-19 09:57:36,3.004s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_CPO price_cplprice""), ""2"")",Firefox 65.0,,2019-03-19 09:57:36,2019-03-19 09:57:36,0.104s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:57:36,2019-03-19 09:57:38,2.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Select Publisher_validat""))",Firefox 65.0,,2019-03-19 09:57:38,2019-03-19 09:57:38,0.286s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:38,2019-03-19 09:57:41,3.007s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Jack""))",Firefox 65.0,,2019-03-19 09:57:41,2019-03-19 09:57:41,0.277s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:41,2019-03-19 09:57:44,3.004s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/Pubselectbtn""))",Firefox 65.0,,2019-03-19 09:57:44,2019-03-19 09:57:45,0.270s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:57:45,2019-03-19 09:57:48,3.003s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:57:48,2019-03-19 09:57:48,0.264s,PASSED
+delay(1),Firefox 65.0,,2019-03-19 09:57:48,2019-03-19 09:57:49,1.002s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_""), ""1"")",Firefox 65.0,,2019-03-19 09:57:49,2019-03-19 09:57:49,0.104s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:57:49,2019-03-19 09:57:54,5.004s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed""))",Firefox 65.0,,2019-03-19 09:57:54,2019-03-19 09:57:55,0.769s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:57:55,2019-03-19 09:58:00,5.002s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_AB Split""))",Firefox 65.0,,2019-03-19 09:58:00,2019-03-19 09:58:00,0.473s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:58:00,2019-03-19 09:58:02,2.002s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone""), ""GOOD AFTERNOON "")",Firefox 65.0,,2019-03-19 09:58:02,2019-03-19 09:58:03,0.211s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:58:03,2019-03-19 09:58:05,2.003s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2""), ""GOOD AFTERNOON TA"")",Firefox 65.0,,2019-03-19 09:58:05,2019-03-19 09:58:05,0.191s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:05,2019-03-19 09:58:10,5.004s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_From Creatives_uploadBtn""))",Firefox 65.0,,2019-03-19 09:58:10,2019-03-19 09:58:10,0.267s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:10,2019-03-19 09:58:15,5.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 09:58:15,2019-03-19 09:58:15,0.339s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:15,2019-03-19 09:58:20,5.004s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Step2prcdbtn""))",Firefox 65.0,,2019-03-19 09:58:20,2019-03-19 09:58:21,0.814s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:21,2019-03-19 09:58:26,5.006s,PASSED
+"click(findTestObject(""NEWOPENDCPM/step3prcdbrn""))",Firefox 65.0,,2019-03-19 09:58:26,2019-03-19 09:58:26,0.300s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:26,2019-03-19 09:58:31,5.005s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjctprct1""), ""50"")",Firefox 65.0,,2019-03-19 09:58:31,2019-03-19 09:58:32,0.088s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:58:32,2019-03-19 09:58:34,2.005s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjectprct2""), ""50"")",Firefox 65.0,,2019-03-19 09:58:34,2019-03-19 09:58:34,0.114s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:58:34,2019-03-19 09:58:36,2.008s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Startcampbtn""))",Firefox 65.0,,2019-03-19 09:58:36,2019-03-19 09:58:36,0.001s,NOT_RUN
+delay(5),Firefox 65.0,,2019-03-19 09:58:36,2019-03-19 09:58:41,5.001s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-19 09:58:41,2019-03-19 09:58:41,0.771s,PASSED
+,,,,,,
+Test Cases/CPL WITH AB SPLIT,Firefox 65.0,,2019-03-19 09:58:41,2019-03-19 10:00:49,2m - 7.412s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-19 09:58:42,2019-03-19 09:58:47,5.161s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-19 09:58:47,2019-03-19 09:58:50,2.726s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 65.0,,2019-03-19 09:58:50,2019-03-19 09:58:51,1.200s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 65.0,,2019-03-19 09:58:51,2019-03-19 09:58:51,0.159s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 65.0,,2019-03-19 09:58:51,2019-03-19 09:58:52,0.400s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:52,2019-03-19 09:58:57,5.004s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 65.0,,2019-03-19 09:58:57,2019-03-19 09:58:57,0.065s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:58:57,2019-03-19 09:59:02,5.000s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 65.0,,2019-03-19 09:59:02,2019-03-19 09:59:02,0.258s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:59:02,2019-03-19 09:59:07,4.996s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise""), ""2"", true)",Firefox 65.0,,2019-03-19 09:59:07,2019-03-19 09:59:08,0.604s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:08,2019-03-19 09:59:11,2.999s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_""), ""CPL WITH A/B SPLIT CAMPAIGN "")",Firefox 65.0,,2019-03-19 09:59:11,2019-03-19 09:59:11,0.273s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:59:11,2019-03-19 09:59:13,2.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:59:13,2019-03-19 09:59:13,0.295s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_CPL""))",Firefox 65.0,,2019-03-19 09:59:13,2019-03-19 09:59:14,0.447s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:59:14,2019-03-19 09:59:16,2.004s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience""), ""2"", true)",Firefox 65.0,,2019-03-19 09:59:16,2019-03-19 09:59:16,0.415s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:16,2019-03-19 09:59:19,3.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Campaign Category_valida""))",Firefox 65.0,,2019-03-19 09:59:19,2019-03-19 09:59:19,0.259s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:19,2019-03-19 09:59:22,3.000s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_fashion""))",Firefox 65.0,,2019-03-19 09:59:22,2019-03-19 09:59:23,0.342s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:23,2019-03-19 09:59:26,3.001s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 09:59:26,2019-03-19 09:59:26,0.274s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:26,2019-03-19 09:59:29,3.002s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Audience Interests_valid""))",Firefox 65.0,,2019-03-19 09:59:29,2019-03-19 09:59:29,0.252s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:29,2019-03-19 09:59:32,3.001s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Party wear""))",Firefox 65.0,,2019-03-19 09:59:32,2019-03-19 09:59:32,0.292s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:59:32,2019-03-19 09:59:34,2.008s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/label_Kidz Wear""))",Firefox 65.0,,2019-03-19 09:59:34,2019-03-19 09:59:35,0.272s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:59:35,2019-03-19 09:59:40,5.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/AIselectbtn""))",Firefox 65.0,,2019-03-19 09:59:40,2019-03-19 09:59:40,0.257s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:40,2019-03-19 09:59:43,3.003s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_CPL price_cplprice""), ""2"")",Firefox 65.0,,2019-03-19 09:59:43,2019-03-19 09:59:43,0.096s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 09:59:43,2019-03-19 09:59:45,2.001s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_Select Publisher_validat""))",Firefox 65.0,,2019-03-19 09:59:45,2019-03-19 09:59:45,0.269s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:45,2019-03-19 09:59:48,3.002s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/label_Jack""))",Firefox 65.0,,2019-03-19 09:59:48,2019-03-19 09:59:49,0.278s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:49,2019-03-19 09:59:52,3.006s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/Pubselectbtn""))",Firefox 65.0,,2019-03-19 09:59:52,2019-03-19 09:59:52,0.263s,PASSED
+delay(3),Firefox 65.0,,2019-03-19 09:59:52,2019-03-19 09:59:55,3.002s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_Normal charges""))",Firefox 65.0,,2019-03-19 09:59:55,2019-03-19 09:59:55,0.260s,PASSED
+delay(1),Firefox 65.0,,2019-03-19 09:59:55,2019-03-19 09:59:56,1.004s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_""), ""1"")",Firefox 65.0,,2019-03-19 09:59:56,2019-03-19 09:59:56,0.062s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 09:59:56,2019-03-19 10:00:01,5.003s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed""))",Firefox 65.0,,2019-03-19 10:00:01,2019-03-19 10:00:02,0.675s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:02,2019-03-19 10:00:07,5.017s,PASSED
+"click(findTestObject(""NEWSPYIDS/Page_Opend/label_AB Split""))",Firefox 65.0,,2019-03-19 10:00:07,2019-03-19 10:00:07,0.517s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 10:00:07,2019-03-19 10:00:09,2.004s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone""), ""GOOD AFTERNOON "")",Firefox 65.0,,2019-03-19 10:00:09,2019-03-19 10:00:10,0.249s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 10:00:10,2019-03-19 10:00:12,2.005s,PASSED
+"setText(findTestObject(""NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2""), ""GOOD AFTERNOON TA"")",Firefox 65.0,,2019-03-19 10:00:12,2019-03-19 10:00:12,0.362s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:12,2019-03-19 10:00:17,5.003s,PASSED
+"click(findTestObject(""newidsfromspy/Page_Opend/input_From Creatives_uploadBtn""))",Firefox 65.0,,2019-03-19 10:00:17,2019-03-19 10:00:17,0.297s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:17,2019-03-19 10:00:22,5.001s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-19 10:00:22,2019-03-19 10:00:23,0.362s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:23,2019-03-19 10:00:28,5.003s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Step2prcdbtn""))",Firefox 65.0,,2019-03-19 10:00:28,2019-03-19 10:00:29,0.776s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:29,2019-03-19 10:00:34,5.002s,PASSED
+"click(findTestObject(""NEWOPENDCPM/step3prcdbrn""))",Firefox 65.0,,2019-03-19 10:00:34,2019-03-19 10:00:34,0.305s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:00:34,2019-03-19 10:00:39,5.003s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjctprct1""), ""50"")",Firefox 65.0,,2019-03-19 10:00:39,2019-03-19 10:00:39,0.107s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 10:00:39,2019-03-19 10:00:41,2.003s,PASSED
+"setText(findTestObject(""NEWSPYIDS/subjectprct2""), ""50"")",Firefox 65.0,,2019-03-19 10:00:41,2019-03-19 10:00:41,0.098s,PASSED
+delay(2),Firefox 65.0,,2019-03-19 10:00:41,2019-03-19 10:00:43,2.003s,PASSED
+"click(findTestObject(""NEWOPENDCPM/Startcampbtn""))",Firefox 65.0,,2019-03-19 10:00:43,2019-03-19 10:00:43,0.001s,NOT_RUN
+delay(5),Firefox 65.0,,2019-03-19 10:00:43,2019-03-19 10:00:48,5.005s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-19 10:00:48,2019-03-19 10:00:49,0.770s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE4,Firefox 65.0,,2019-03-19 10:00:54,2019-03-19 10:01:29,35.451s,FAILED
+,,,,,,
+Test Cases/CREATE CONTACT LIST,Firefox 65.0,,2019-03-19 10:00:54,2019-03-19 10:01:28,33.386s,FAILED
+"openBrowser("""")",Firefox 65.0,,2019-03-19 10:00:55,2019-03-19 10:01:02,7.469s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-19 10:01:02,2019-03-19 10:01:05,2.409s,PASSED
+"setText(findTestObject(""Object Repository/creating contact/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 65.0,,2019-03-19 10:01:05,2019-03-19 10:01:06,1.405s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/creating contact/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 65.0,,2019-03-19 10:01:06,2019-03-19 10:01:06,0.321s,PASSED
+"click(findTestObject(""creating contact/Signinbtn""))",Firefox 65.0,,2019-03-19 10:01:07,2019-03-19 10:01:07,0.390s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:01:07,2019-03-19 10:01:12,5.050s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/a_Contacts""))",Firefox 65.0,,2019-03-19 10:01:12,2019-03-19 10:01:13,1.428s,PASSED
+delay(8),Firefox 65.0,,2019-03-19 10:01:13,2019-03-19 10:01:21,8.008s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/a_Create Contact""))",Firefox 65.0,,2019-03-19 10:01:21,2019-03-19 10:01:22,0.250s,PASSED
+delay(5),Firefox 65.0,,2019-03-19 10:01:22,2019-03-19 10:01:27,5.004s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/creating contact/Page_Opend/select_Please Select Publisher""), ""2"", true)",Firefox 65.0,,2019-03-19 10:01:27,2019-03-19 10:01:28,0.989s,FAILED
