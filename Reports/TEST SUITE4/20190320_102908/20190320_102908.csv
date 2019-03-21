@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE4,Firefox 65.0,,2019-03-20 12:11:30,2019-03-20 12:16:43,5m - 12.862s,FAILED
+,,,,,,
+Test Cases/CREATE CONTACT LIST,Firefox 65.0,,2019-03-20 12:11:31,2019-03-20 12:16:42,5m - 11.179s,FAILED
+"openBrowser("""")",Firefox 65.0,,2019-03-20 12:11:32,2019-03-20 12:11:42,9.912s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-20 12:11:42,2019-03-20 12:16:42,5m - 0.370s,FAILED
