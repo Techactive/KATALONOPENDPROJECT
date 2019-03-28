@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST SUITE4" time="79" tests="1" failures="0" errors="0">
+   <testsuite name="TEST SUITE4" tests="1" failures="0" errors="0" time="79" timestamp="2019-03-22 10:28:10" hostname="activemac05 - activemc05simac" id="Test Suites/TEST SUITE4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/activemac05/git/KATALONOPENDPROJECT2/Reports/TEST SUITE4/20190322_101743"/>
+         <property name="logFiles" value="/Users/activemac05/git/KATALONOPENDPROJECT2/Reports/TEST SUITE4/20190322_101743/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="activemac05 - activemc05simac"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.135"/>
+         <property name="sessionId" value="94b16a4b-1abf-2746-be74-0c59c5cc4499"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CREATE CONTACT LIST" classname="Test Cases/CREATE CONTACT LIST" status="PASSED">
+         <system-out><![CDATA[2019-03-22 10:28:10 - [TEST_CASE][PASSED] - Test Cases/CREATE CONTACT LIST: Test Cases/CREATE CONTACT LIST
+
+2019-03-22 10:28:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-22 10:28:12 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-22 10:28:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-22 10:28:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-22 10:28:22 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-22 10:28:27 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-22 10:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/creating contact/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/creating contact/Page_Opend/input_Admin Login_email_id'
+
+2019-03-22 10:28:29 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/creating contact/Page_Opend/input_Admin Login_email_id'
+
+2019-03-22 10:28:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/creating contact/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/creating contact/Page_Opend/input_Admin Login_password'
+
+2019-03-22 10:28:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/creating contact/Page_Opend/input_Admin Login_password'
+
+2019-03-22 10:28:30 - [TEST_STEP][PASSED] - click(findTestObject("creating contact/Signinbtn")): Object: 'Object Repository/creating contact/Signinbtn' is clicked on
+
+2019-03-22 10:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Signinbtn' is clicked on
+
+2019-03-22 10:28:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-22 10:28:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-22 10:28:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/a_Contacts")): Object: 'Object Repository/creating contact/Page_Opend/a_Contacts' is clicked on
+
+2019-03-22 10:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/a_Contacts' is clicked on
+
+2019-03-22 10:28:36 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-03-22 10:28:44 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-03-22 10:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/a_Create Contact")): Object: 'Object Repository/creating contact/Page_Opend/a_Create Contact' is clicked on
+
+2019-03-22 10:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/a_Create Contact' is clicked on
+
+2019-03-22 10:28:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-22 10:28:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-22 10:28:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/creating contact/Page_Opend/select_Please Select Publisher"), "2", true): All options with value '2' are selected in object 'Object Repository/creating contact/Page_Opend/select_Please Select Publisher'  using regular expression
+
+2019-03-22 10:28:51 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/creating contact/Page_Opend/select_Please Select Publisher'  using regular expression
+
+2019-03-22 10:28:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-22 10:28:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-22 10:28:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/creating contact/Page_Opend/input__validate input-field ng"), "TEST LIST 2"): Text 'TEST LIST 2' is set on object 'Object Repository/creating contact/Page_Opend/input__validate input-field ng'
+
+2019-03-22 10:28:54 - [MESSAGE][PASSED] - Text 'TEST LIST 2' is set on object 'Object Repository/creating contact/Page_Opend/input__validate input-field ng'
+
+2019-03-22 10:28:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-22 10:28:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-22 10:28:57 - [TEST_STEP][PASSED] - click(findTestObject("newcontactids/Page_Opend/input__validate input-field in")): Object: 'Object Repository/newcontactids/Page_Opend/input__validate input-field in' is clicked on
+
+2019-03-22 10:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/newcontactids/Page_Opend/input__validate input-field in' is clicked on
+
+2019-03-22 10:28:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:28:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/label_siddu")): Object: 'Object Repository/creating contact/Page_Opend/label_siddu' is clicked on
+
+2019-03-22 10:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/label_siddu' is clicked on
+
+2019-03-22 10:28:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/button_Select")): Object: 'Object Repository/creating contact/Page_Opend/button_Select' is clicked on
+
+2019-03-22 10:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/button_Select' is clicked on
+
+2019-03-22 10:29:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:04 - [TEST_STEP][PASSED] - setText(findTestObject("newcontactids/Page_Opend/cpmpayout"), "100"): Text '100' is set on object 'Object Repository/newcontactids/Page_Opend/cpmpayout'
+
+2019-03-22 10:29:04 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/newcontactids/Page_Opend/cpmpayout'
+
+2019-03-22 10:29:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:06 - [TEST_STEP][PASSED] - setText(findTestObject("newcontactids/Page_Opend/usagelimit"), "10"): Text '10' is set on object 'Object Repository/newcontactids/Page_Opend/usagelimit'
+
+2019-03-22 10:29:06 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/newcontactids/Page_Opend/usagelimit'
+
+2019-03-22 10:29:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:08 - [TEST_STEP][PASSED] - click(findTestObject("contactai/Page_Opend/input__validate input-field in")): Object: 'Object Repository/contactai/Page_Opend/input__validate input-field in' is clicked on
+
+2019-03-22 10:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/contactai/Page_Opend/input__validate input-field in' is clicked on
+
+2019-03-22 10:29:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/creating contact/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-22 10:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-22 10:29:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/label_Party wear")): Object: 'Object Repository/creating contact/Page_Opend/label_Party wear' is clicked on
+
+2019-03-22 10:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/label_Party wear' is clicked on
+
+2019-03-22 10:29:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:16 - [TEST_STEP][PASSED] - click(findTestObject("contactai/Page_Opend/aiselectbtn")): Object: 'Object Repository/contactai/Page_Opend/aiselectbtn' is clicked on
+
+2019-03-22 10:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/contactai/Page_Opend/aiselectbtn' is clicked on
+
+2019-03-22 10:29:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/creating contact/Page_Opend/select_Select Country"), "79", true): All options with value '79' are selected in object 'Object Repository/creating contact/Page_Opend/select_Select Country'  using regular expression
+
+2019-03-22 10:29:18 - [MESSAGE][PASSED] - All options with value '79' are selected in object 'Object Repository/creating contact/Page_Opend/select_Select Country'  using regular expression
+
+2019-03-22 10:29:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/creating contact/Page_Opend/input__validate input-field ng_7"), "QATEST"): Text 'QATEST' is set on object 'Object Repository/creating contact/Page_Opend/input__validate input-field ng_7'
+
+2019-03-22 10:29:20 - [MESSAGE][PASSED] - Text 'QATEST' is set on object 'Object Repository/creating contact/Page_Opend/input__validate input-field ng_7'
+
+2019-03-22 10:29:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-22 10:29:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-22 10:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/creating contact/Page_Opend/button_Add")): Object: 'Object Repository/creating contact/Page_Opend/button_Add' is clicked on
+
+2019-03-22 10:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/creating contact/Page_Opend/button_Add' is clicked on
+
+2019-03-22 10:29:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-22 10:29:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-22 10:29:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-22 10:29:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-22 10:28:10 - [TEST_SUITE][PASSED] - TEST SUITE4: Test Cases/CREATE CONTACT LIST]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

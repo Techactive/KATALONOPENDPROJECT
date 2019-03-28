@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE4,Firefox 65.0,,2019-03-22 10:28:10,2019-03-22 10:29:29,1m - 19.609s,PASSED
+,,,,,,
+Test Cases/CREATE CONTACT LIST,Firefox 65.0,,2019-03-22 10:28:10,2019-03-22 10:29:29,1m - 18.832s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-22 10:28:11,2019-03-22 10:28:22,11.098s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 65.0,,2019-03-22 10:28:22,2019-03-22 10:28:27,4.776s,PASSED
+"setText(findTestObject(""Object Repository/creating contact/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 65.0,,2019-03-22 10:28:27,2019-03-22 10:28:29,2.056s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/creating contact/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 65.0,,2019-03-22 10:28:29,2019-03-22 10:28:30,0.837s,PASSED
+"click(findTestObject(""creating contact/Signinbtn""))",Firefox 65.0,,2019-03-22 10:28:30,2019-03-22 10:28:31,0.485s,PASSED
+delay(5),Firefox 65.0,,2019-03-22 10:28:31,2019-03-22 10:28:36,5.120s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/a_Contacts""))",Firefox 65.0,,2019-03-22 10:28:36,2019-03-22 10:28:36,0.534s,PASSED
+delay(8),Firefox 65.0,,2019-03-22 10:28:36,2019-03-22 10:28:44,8.010s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/a_Create Contact""))",Firefox 65.0,,2019-03-22 10:28:44,2019-03-22 10:28:45,0.330s,PASSED
+delay(5),Firefox 65.0,,2019-03-22 10:28:45,2019-03-22 10:28:50,5.011s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/creating contact/Page_Opend/select_Please Select Publisher""), ""2"", true)",Firefox 65.0,,2019-03-22 10:28:50,2019-03-22 10:28:51,0.976s,PASSED
+delay(3),Firefox 65.0,,2019-03-22 10:28:51,2019-03-22 10:28:54,3.013s,PASSED
+"setText(findTestObject(""Object Repository/creating contact/Page_Opend/input__validate input-field ng""), ""TEST LIST 2"")",Firefox 65.0,,2019-03-22 10:28:54,2019-03-22 10:28:54,0.267s,PASSED
+delay(3),Firefox 65.0,,2019-03-22 10:28:54,2019-03-22 10:28:57,3.008s,PASSED
+"click(findTestObject(""newcontactids/Page_Opend/input__validate input-field in""))",Firefox 65.0,,2019-03-22 10:28:57,2019-03-22 10:28:57,0.310s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:28:57,2019-03-22 10:28:59,2.009s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/label_siddu""))",Firefox 65.0,,2019-03-22 10:28:59,2019-03-22 10:28:59,0.338s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:28:59,2019-03-22 10:29:01,2.010s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/button_Select""))",Firefox 65.0,,2019-03-22 10:29:01,2019-03-22 10:29:02,0.347s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:02,2019-03-22 10:29:04,2.008s,PASSED
+"setText(findTestObject(""newcontactids/Page_Opend/cpmpayout""), ""100"")",Firefox 65.0,,2019-03-22 10:29:04,2019-03-22 10:29:04,0.157s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:04,2019-03-22 10:29:06,2.012s,PASSED
+"setText(findTestObject(""newcontactids/Page_Opend/usagelimit""), ""10"")",Firefox 65.0,,2019-03-22 10:29:06,2019-03-22 10:29:06,0.295s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:06,2019-03-22 10:29:08,2.110s,PASSED
+"click(findTestObject(""contactai/Page_Opend/input__validate input-field in""))",Firefox 65.0,,2019-03-22 10:29:08,2019-03-22 10:29:09,0.434s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:09,2019-03-22 10:29:11,2.005s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/label_Kidz Wear""))",Firefox 65.0,,2019-03-22 10:29:11,2019-03-22 10:29:11,0.314s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:11,2019-03-22 10:29:13,2.007s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/label_Party wear""))",Firefox 65.0,,2019-03-22 10:29:13,2019-03-22 10:29:13,0.302s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:13,2019-03-22 10:29:16,2.006s,PASSED
+"click(findTestObject(""contactai/Page_Opend/aiselectbtn""))",Firefox 65.0,,2019-03-22 10:29:16,2019-03-22 10:29:16,0.282s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:16,2019-03-22 10:29:18,2.005s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/creating contact/Page_Opend/select_Select Country""), ""79"", true)",Firefox 65.0,,2019-03-22 10:29:18,2019-03-22 10:29:18,0.455s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:18,2019-03-22 10:29:20,2.007s,PASSED
+"setText(findTestObject(""Object Repository/creating contact/Page_Opend/input__validate input-field ng_7""), ""QATEST"")",Firefox 65.0,,2019-03-22 10:29:20,2019-03-22 10:29:20,0.116s,PASSED
+delay(2),Firefox 65.0,,2019-03-22 10:29:20,2019-03-22 10:29:22,2.062s,PASSED
+"click(findTestObject(""Object Repository/creating contact/Page_Opend/button_Add""))",Firefox 65.0,,2019-03-22 10:29:22,2019-03-22 10:29:23,0.349s,PASSED
+delay(5),Firefox 65.0,,2019-03-22 10:29:23,2019-03-22 10:29:28,5.005s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-22 10:29:28,2019-03-22 10:29:29,1.310s,PASSED

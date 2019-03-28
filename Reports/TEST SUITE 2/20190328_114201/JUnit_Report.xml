@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST SUITE 2" time="403" tests="3" failures="0" errors="0">
+   <testsuite name="TEST SUITE 2" tests="3" failures="0" errors="0" time="403" timestamp="2019-03-28 11:42:08" hostname="activemac05 - activemc05simac" id="Test Suites/TEST SUITE 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/activemac05/git/KATALONOPENDPROJECT2/Reports/TEST SUITE 2/20190328_114201"/>
+         <property name="logFiles" value="/Users/activemac05/git/KATALONOPENDPROJECT2/Reports/TEST SUITE 2/20190328_114201/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="activemac05 - activemc05simac"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.136"/>
+         <property name="sessionId" value="aaf6eaeb-67f3-fd47-a1d3-8fce69991ffe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CPM WITH AB SPLIT" classname="Test Cases/CPM WITH AB SPLIT" status="PASSED">
+         <system-out><![CDATA[2019-03-28 11:42:08 - [TEST_CASE][PASSED] - Test Cases/CPM WITH AB SPLIT: Test Cases/CPM WITH AB SPLIT
+
+2019-03-28 11:42:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-28 11:42:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-28 11:42:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-28 11:42:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-28 11:42:21 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:42:26 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:42:30 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:42:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:42:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:42:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:42:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:42:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:42:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:42:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:42:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:42:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:42:52 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:42:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:42:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:42:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPM WITH A/B SPLIT CAMPAIGN "): Text 'CPM WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:42:56 - [MESSAGE][PASSED] - Text 'CPM WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:42:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:42:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:42:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:43:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:43:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:43:01 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:43:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:04 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:43:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:07 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:43:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:43:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:14 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:43:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:17 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:43:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:43:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:43:20 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:43:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:43:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:43:25 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:43:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:28 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:43:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:43:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:35 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:43:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:43:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:43:38 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:43:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:43:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:43:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:43:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:43:49 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:43:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:43:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone"), "GOOD AFTERNOON "): Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:43:52 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:43:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:43:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2"), "GOOD AFTERNOON TA"): Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:43:54 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:43:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:43:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:43:59 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_From Creatives_uploadBtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:44:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:44:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:10 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/Step2prcdbtn")): Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:44:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:16 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/step3prcdbrn")): Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:44:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjctprct1"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:44:22 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:44:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:44:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjectprct2"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:44:24 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:44:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:44:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:44:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("NEWOPENDCPM/Startcampbtn")): NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:44:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:44:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-28 11:44:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPO WITH AB SPLIT" classname="Test Cases/CPO WITH AB SPLIT" status="PASSED">
+         <system-out><![CDATA[2019-03-28 11:44:32 - [TEST_CASE][PASSED] - Test Cases/CPO WITH AB SPLIT: Test Cases/CPO WITH AB SPLIT
+
+2019-03-28 11:44:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-28 11:44:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-28 11:44:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-28 11:44:38 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:44:40 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:44:42 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:44:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:44:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:44:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:44:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:44:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:44:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:44:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:44:58 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:44:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPO WITH AB SPLIT CAMPAIGN "): Text 'CPO WITH AB SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:45:02 - [MESSAGE][PASSED] - Text 'CPO WITH AB SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:45:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:45:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:45:04 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_CPO")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPO' is clicked on
+
+2019-03-28 11:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPO' is clicked on
+
+2019-03-28 11:45:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:45:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:45:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:45:07 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:45:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:10 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:45:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:13 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:45:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:45:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:20 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:45:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:23 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:45:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:45:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:45:26 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:45:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:45:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:45:31 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:45:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:34 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPO price_cplprice"), "2"): Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO price_cplprice'
+
+2019-03-28 11:45:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO price_cplprice'
+
+2019-03-28 11:45:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:45:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:45:36 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:45:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:45:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:43 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:45:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:45:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:45:46 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:45:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-28 11:45:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-28 11:45:48 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_"), "1"): Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_'
+
+2019-03-28 11:45:48 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPO Payout Price_payout_'
+
+2019-03-28 11:45:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:45:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:45:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:45:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:45:59 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:45:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:46:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone"), "GOOD AFTERNOON "): Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:46:02 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:46:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:46:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2"), "GOOD AFTERNOON TA"): Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:46:04 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:46:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:09 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_From Creatives_uploadBtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:46:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:46:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:19 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/Step2prcdbtn")): Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:46:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:25 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/step3prcdbrn")): Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:46:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjctprct1"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:46:31 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:46:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:46:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjectprct2"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:46:33 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:46:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:46:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:46:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("NEWOPENDCPM/Startcampbtn")): NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:46:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:46:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-28 11:46:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPL WITH AB SPLIT" classname="Test Cases/CPL WITH AB SPLIT" status="PASSED">
+         <system-out><![CDATA[2019-03-28 11:46:41 - [TEST_CASE][PASSED] - Test Cases/CPL WITH AB SPLIT: Test Cases/CPL WITH AB SPLIT
+
+2019-03-28 11:46:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-28 11:46:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-28 11:46:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-28 11:46:47 - [TEST_STEP][PASSED] - navigateToUrl("http://campaignsopend.techactive.tk/#/admin_login"): Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:46:49 - [MESSAGE][PASSED] - Navigate to 'http://campaignsopend.techactive.tk/#/admin_login' successfully
+
+2019-03-28 11:46:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id"), "admin@opend.com"): Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:46:50 - [MESSAGE][PASSED] - Text 'admin@opend.com' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'
+
+2019-03-28 11:46:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:46:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'
+
+2019-03-28 11:46:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In' is clicked on
+
+2019-03-28 11:46:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:46:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:46:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns' is clicked on
+
+2019-03-28 11:46:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:47:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign' is clicked on
+
+2019-03-28 11:47:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:47:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:47:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:47:09 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'  using regular expression
+
+2019-03-28 11:47:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_"), "CPL WITH A/B SPLIT CAMPAIGN "): Text 'CPL WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:47:13 - [MESSAGE][PASSED] - Text 'CPL WITH A/B SPLIT CAMPAIGN ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'
+
+2019-03-28 11:47:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:47:15 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_CPL")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPL' is clicked on
+
+2019-03-28 11:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_CPL' is clicked on
+
+2019-03-28 11:47:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:47:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:47:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience"), "2", true): All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:47:18 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Audience'  using regular expression
+
+2019-03-28 11:47:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:21 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Campaign Category_valida")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Campaign Category_valida' is clicked on
+
+2019-03-28 11:47:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:24 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_fashion")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_fashion' is clicked on
+
+2019-03-28 11:47:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:47:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:31 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Audience Interests_valid")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Audience Interests_valid' is clicked on
+
+2019-03-28 11:47:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:34 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Party wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Party wear' is clicked on
+
+2019-03-28 11:47:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:47:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:47:36 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/label_Kidz Wear")): Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/label_Kidz Wear' is clicked on
+
+2019-03-28 11:47:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:47:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:47:42 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/AIselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/AIselectbtn' is clicked on
+
+2019-03-28 11:47:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:45 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPL price_cplprice"), "2"): Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL price_cplprice'
+
+2019-03-28 11:47:45 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL price_cplprice'
+
+2019-03-28 11:47:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:47:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:47:47 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_Select Publisher_validat")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_Select Publisher_validat' is clicked on
+
+2019-03-28 11:47:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/label_Jack")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/label_Jack' is clicked on
+
+2019-03-28 11:47:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:54 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/Pubselectbtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/Pubselectbtn' is clicked on
+
+2019-03-28 11:47:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 11:47:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 11:47:57 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_Normal charges")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_Normal charges' is clicked on
+
+2019-03-28 11:47:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-28 11:47:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-28 11:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_"), "1"): Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_'
+
+2019-03-28 11:47:58 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_CPL Payout Price_payout_'
+
+2019-03-28 11:47:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Proceed' is clicked on
+
+2019-03-28 11:48:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:09 - [TEST_STEP][PASSED] - click(findTestObject("NEWSPYIDS/Page_Opend/label_AB Split")): Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWSPYIDS/Page_Opend/label_AB Split' is clicked on
+
+2019-03-28 11:48:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:48:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone"), "GOOD AFTERNOON "): Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:48:11 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON ' is set on object 'Object Repository/NEWOPENDCPM/Page_Opend/input_Subject Line_subjectone'
+
+2019-03-28 11:48:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:48:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2"), "GOOD AFTERNOON TA"): Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:48:14 - [MESSAGE][PASSED] - Text 'GOOD AFTERNOON TA' is set on object 'Object Repository/NEWSPYIDS/Page_Opend/input_Subject Line 2_subject2'
+
+2019-03-28 11:48:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:19 - [TEST_STEP][PASSED] - click(findTestObject("newidsfromspy/Page_Opend/input_From Creatives_uploadBtn")): Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/newidsfromspy/Page_Opend/input_From Creatives_uploadBtn' is clicked on
+
+2019-03-28 11:48:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NEWOPENDCPM/Page_Opend/button_Select")): Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Page_Opend/button_Select' is clicked on
+
+2019-03-28 11:48:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:29 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/Step2prcdbtn")): Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/Step2prcdbtn' is clicked on
+
+2019-03-28 11:48:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:35 - [TEST_STEP][PASSED] - click(findTestObject("NEWOPENDCPM/step3prcdbrn")): Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/NEWOPENDCPM/step3prcdbrn' is clicked on
+
+2019-03-28 11:48:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjctprct1"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:48:41 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjctprct1'
+
+2019-03-28 11:48:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:48:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("NEWSPYIDS/subjectprct2"), "50"): Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:48:43 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/NEWSPYIDS/subjectprct2'
+
+2019-03-28 11:48:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-28 11:48:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-28 11:48:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("NEWOPENDCPM/Startcampbtn")): NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:48:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("NEWOPENDCPM/Startcampbtn"))
+
+2019-03-28 11:48:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 11:48:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 11:48:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-28 11:48:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-28 11:42:08 - [TEST_SUITE][PASSED] - TEST SUITE 2: Test Cases/CPL WITH AB SPLIT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
