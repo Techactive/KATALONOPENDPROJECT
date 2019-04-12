@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://campaignsopend.techactive.tk/#/admin_login')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id'), 'admin@opend.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password'), '4nvbrPglk7k=')

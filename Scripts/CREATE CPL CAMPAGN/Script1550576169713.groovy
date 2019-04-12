@@ -27,7 +27,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign'))
 
@@ -36,7 +36,7 @@ WebUI.delay(5)
 WebUI.selectOptionByValue(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/select_Please Select Advertise'), '2', 
     true)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'TEST CPL CAMPAIGN ')
 
