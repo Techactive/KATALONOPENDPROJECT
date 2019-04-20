@@ -40,7 +40,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/NEWOPENDCPM/Page_Ope
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'TEST CAMPAIGN 2')
+WebUI.setText(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/input_Campaign Name_camp_name_'), 'TEST CAMPAIGN 3')
 
 WebUI.delay(2)
 
@@ -123,7 +123,7 @@ WebUI.delay(5)
 
 not_run: WebUI.click(findTestObject('NEWOPENDCPM/Startcampbtn'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.closeBrowser()
 

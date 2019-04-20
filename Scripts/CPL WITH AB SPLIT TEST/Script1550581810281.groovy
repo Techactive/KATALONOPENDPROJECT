@@ -145,7 +145,7 @@ WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('newwinnigprct/Page_Opend/select_Please Select Combinati'), 'openrate', true)
 
-not_run: WebUI.click(findTestObject('NEWOPENDCPM/Startcampbtn'))
+WebUI.click(findTestObject('NEWOPENDCPM/Startcampbtn'))
 
 WebUI.delay(5)
 

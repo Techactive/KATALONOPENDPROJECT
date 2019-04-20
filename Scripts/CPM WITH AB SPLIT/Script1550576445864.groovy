@@ -135,7 +135,7 @@ WebUI.setText(findTestObject('NEWSPYIDS/subjectprct2'), '50')
 
 WebUI.delay(2)
 
-not_run: WebUI.click(findTestObject('NEWOPENDCPM/Startcampbtn'))
+WebUI.click(findTestObject('NEWOPENDCPM/Startcampbtn'))
 
 WebUI.delay(5)
 
