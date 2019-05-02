@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE1,Firefox 66.0,,2019-04-26 14:27:51,2019-04-26 14:29:13,1m - 22.266s,FAILED
+,,,,,,
+Test Cases/CREATING CPM CAMPAIGN,Firefox 66.0,,2019-04-26 14:27:52,2019-04-26 14:28:20,27.844s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:27:53,2019-04-26 14:27:59,6.193s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 66.0,,2019-04-26 14:27:59,2019-04-26 14:28:02,2.764s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:02,2019-04-26 14:28:07,5.050s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 66.0,,2019-04-26 14:28:07,2019-04-26 14:28:07,0.379s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 66.0,,2019-04-26 14:28:07,2019-04-26 14:28:08,0.422s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 66.0,,2019-04-26 14:28:08,2019-04-26 14:28:08,0.372s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:08,2019-04-26 14:28:13,5.006s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 66.0,,2019-04-26 14:28:13,2019-04-26 14:28:13,0.142s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:13,2019-04-26 14:28:18,5.007s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 66.0,,2019-04-26 14:28:18,2019-04-26 14:28:19,1.350s,FAILED
+,,,,,,
+Test Cases/CREATING CPO CAMPAIGN,Firefox 66.0,,2019-04-26 14:28:20,2019-04-26 14:28:43,23.145s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:28:21,2019-04-26 14:28:26,5.597s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 66.0,,2019-04-26 14:28:26,2019-04-26 14:28:29,2.920s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 66.0,,2019-04-26 14:28:29,2019-04-26 14:28:31,1.636s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 66.0,,2019-04-26 14:28:31,2019-04-26 14:28:31,0.161s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 66.0,,2019-04-26 14:28:31,2019-04-26 14:28:31,0.347s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:31,2019-04-26 14:28:36,5.004s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 66.0,,2019-04-26 14:28:36,2019-04-26 14:28:37,0.116s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:37,2019-04-26 14:28:42,5.005s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 66.0,,2019-04-26 14:28:42,2019-04-26 14:28:43,1.081s,FAILED
+,,,,,,
+Test Cases/CREATE CPL CAMPAGN,Firefox 66.0,,2019-04-26 14:28:43,2019-04-26 14:29:12,28.965s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:28:43,2019-04-26 14:28:49,5.582s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 66.0,,2019-04-26 14:28:49,2019-04-26 14:28:56,6.686s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 66.0,,2019-04-26 14:28:56,2019-04-26 14:28:57,1.826s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 66.0,,2019-04-26 14:28:57,2019-04-26 14:28:58,0.130s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 66.0,,2019-04-26 14:28:58,2019-04-26 14:28:58,0.401s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:28:58,2019-04-26 14:29:03,5.006s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 66.0,,2019-04-26 14:29:03,2019-04-26 14:29:03,0.142s,PASSED
+delay(8),Firefox 66.0,,2019-04-26 14:29:03,2019-04-26 14:29:11,8.012s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 66.0,,2019-04-26 14:29:11,2019-04-26 14:29:12,0.529s,FAILED

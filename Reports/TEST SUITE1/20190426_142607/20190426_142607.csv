@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TEST SUITE1,Firefox 66.0,,2019-04-26 14:26:13,2019-04-26 14:27:04,50.706s,FAILED
+,,,,,,
+Test Cases/CREATING CPM CAMPAIGN,Firefox 66.0,,2019-04-26 14:26:14,2019-04-26 14:26:19,4.667s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:26:15,2019-04-26 14:26:19,3.660s,FAILED
+,,,,,,
+Test Cases/CREATING CPO CAMPAIGN,Firefox 66.0,,2019-04-26 14:26:19,2019-04-26 14:26:34,15.636s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:26:20,2019-04-26 14:26:34,14.631s,FAILED
+,,,,,,
+Test Cases/CREATE CPL CAMPAGN,Firefox 66.0,,2019-04-26 14:26:34,2019-04-26 14:27:03,28.703s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-04-26 14:26:35,2019-04-26 14:26:41,5.262s,PASSED
+"navigateToUrl(""http://campaignsopend.techactive.tk/#/admin_login"")",Firefox 66.0,,2019-04-26 14:26:41,2019-04-26 14:26:43,2.720s,PASSED
+"setText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_email_id""), ""admin@opend.com"")",Firefox 66.0,,2019-04-26 14:26:43,2019-04-26 14:26:45,2.115s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/input_Admin Login_password""), ""4nvbrPglk7k="")",Firefox 66.0,,2019-04-26 14:26:45,2019-04-26 14:26:46,0.330s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/button_Sign In""))",Firefox 66.0,,2019-04-26 14:26:46,2019-04-26 14:26:46,0.399s,PASSED
+delay(5),Firefox 66.0,,2019-04-26 14:26:46,2019-04-26 14:26:51,5.153s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns""))",Firefox 66.0,,2019-04-26 14:26:51,2019-04-26 14:26:55,3.362s,PASSED
+delay(8),Firefox 66.0,,2019-04-26 14:26:55,2019-04-26 14:27:03,8.010s,PASSED
+"click(findTestObject(""Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign""))",Firefox 66.0,,2019-04-26 14:27:03,2019-04-26 14:27:03,0.355s,FAILED

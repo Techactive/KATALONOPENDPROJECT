@@ -29,9 +29,9 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/a_Campaigns'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
-WebUI.click(findTestObject('Object Repository/NEWOPENDCPM/Page_Opend/a_Start New Campaign'))
+WebUI.click(findTestObject('start camp btn/start campaign btn'))
 
 WebUI.delay(5)
 
